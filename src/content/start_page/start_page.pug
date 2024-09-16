@@ -1,0 +1,22 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Webpack
+        //- relative path to SCSS source file
+        link(href="./start_page.scss" rel="stylesheet")
+        //- relative path to TypeScript source file
+        script(src="./start_page.js" defer="defer")
+    body 
+        .router
+            a.colors_styles( href="./colorsAndType.html" target=_blank) Colors & Styles
+            |
+            |
+            a.router_header( href='#') Headers & Footers 
+            |
+            |
+            a.router_header( href='#') Form Elements
+            |
+            |
+            a.router_header( href='#') Cards

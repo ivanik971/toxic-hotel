@@ -1,0 +1,24 @@
+include ../../components/colors/color.pug
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="../../components/colors/color.scss")
+        link(rel="stylesheet", href="./colors-and-type.scss")
+        link(rel="stylesheet", href="./fonts.scss")
+        script(src="./colors-and-type.js" defer="defer")
+        title Colors & Type
+     
+    body
+        .color-blok
+             
+            +colors("#1F2041","Dark Shade 100%",'#1F2041')
+            +colors("#1F2041BF",'Dark Shade 75%','#1F2041')
+            +colors("#1F20417F",'Dark Shade 50%','#1F2041')
+            +colors("#1F20413F",'Dark Shade 25%','#1F2041')
+            +colors("#1F20410D",'Dark Shade 5%','#1F2041')
+            +colors("#BC9CFF",'Purple','#BC9CFF')
+            +colors("#6FCF97",'Green','#6FCF97')
+            
