@@ -25,7 +25,7 @@ module.exports = {
     plugins: [
       new PugPlugin({
         entry: { // adding html-files in 'dist'
-          index: './src/content/start_page/start_page.pug',
+          index: './src/pages/start/start.pug',
           colorsAndType: './src/pages/colors-and-type/colors-and-type.pug',
         }, 
         js: {
@@ -36,9 +36,7 @@ module.exports = {
         css: {
             // CSS output filename
             filename: 'css/[name].[contenthash:8].css',
-            //output:{
-           // clean: true
-           // }
+            
           }
         
       })
@@ -69,7 +67,7 @@ module.exports = {
         },
         {
           test: /\.woff2?$/i,
-          
+          type: 'asset/resource',
           generator: {
             filename: 'fonts/[name].[ext]'
           }

@@ -1,15 +1,15 @@
-.color-block__color {
+.color__container {
     width: 70px;
     height: 70px;
     border-radius: 6px;
 }
-.color-block__color-wrapper {
+.color {
     width: 282px;
     height: 70px;
     display: flex;
     flex-direction: row;
 }
-.color-block__text-box {
+.color__wrapper {
     display: flex;
     flex-direction: column;
     width: 171px;
@@ -17,18 +17,21 @@
     margin-top: 7px;
     padding-left: 40px;
 }
-.color-block__text-box_color-number {
+.color__number-box {
     font-size: 19px;
     height: 28px;
     font-weight: 400;
-    font-family: Montserrat;
+    
 }
-.color-block__text-box_color-text {
+.color__text-box {
     font-size: 19px;
     height: 28px;
     font-weight: 700;
-    font-family: Montserrat;
+   
 }
-.name  {
+.color__text  {
     text-align:left ;
+}
+.color__number {
+    margin-top: 3px;
 }

@@ -1,3 +1,6 @@
+
+@import '../style/fonts';
+
 .router {
     display: flex;
     flex-direction: column;
@@ -6,7 +9,6 @@
 a {
     text-decoration: none;
     font-size: 40px;
-    font-family: sans-serif;
     color: rgb(89, 81, 81);
 }
 .colors_styles {
@@ -15,7 +17,7 @@ a {
 .router_header {
     margin-top: 20px;
 }
-
 body {
-    font-family:' Montserrat';
+    font-family: "Montserrat";
 }
+
