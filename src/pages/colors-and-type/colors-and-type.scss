@@ -11,10 +11,26 @@
     flex-direction: column;
     height:610px;
     width: 282px;
-    padding:145px 1008px 145px 150px;
+    margin-top:145px;
+    margin-bottom:145px;
+    margin-left: 150px;
     justify-content: space-between;
     
 }
 body {
     font-family: "Montserrat";
+    width: 1440px ;
+   // width: 100vw;
+}
+.color-page {
+    display: flex;
+    flex-direction: row;
+}
+.colors-textBox {
+   // width: 436px;
+   // height: 321px;
+    margin-top: 145px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 415px;
 }

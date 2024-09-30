@@ -1,22 +1,30 @@
+extends ../../layouts/ui-kit-layout.pug
 include ../../components/colors/color.pug
+include ../../mixins/typography/typography.pug 
 
-doctype html
-html(lang="ru")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        link(rel="stylesheet", href="./colors-and-type.scss")
-        script(src="./colors-and-type.js" defer="defer")
-        title Colors & Type
+block values 
+    title Colors & Type
      
-    body
-        .color-blok
-             
-            +colors("#1F2041","Dark Shade 100%",'#1F2041')
-            +colors("#1F2041BF",'Dark Shade 75%','#1F2041')
-            +colors("#1F20417F",'Dark Shade 50%','#1F2041')
-            +colors("#1F20413F",'Dark Shade 25%','#1F2041')
-            +colors("#1F20410D",'Dark Shade 5%','#1F2041')
-            +colors("#BC9CFF",'Purple','#BC9CFF')
-            +colors("#6FCF97",'Green','#6FCF97')
-            
+block content
+        .color-page
+            .color-blok
+                +colors("#1F2041","Dark Shade 100%",'#1F2041')
+                +colors("#1F2041BF",'Dark Shade 75%','#1F2041')
+                +colors("#1F20417F",'Dark Shade 50%','#1F2041')
+                +colors("#1F20413F",'Dark Shade 25%','#1F2041')
+                +colors("#1F20410D",'Dark Shade 5%','#1F2041')
+                +colors("#BC9CFF",'Purple','#BC9CFF')
+                +colors("#6FCF97",'Green','#6FCF97')
+            .colors-textBox
+                +colors-text(
+                    'H1',
+                    'H2',
+                    'H3',
+                    'Body',
+                    'This one is the sub-section or widget title',
+                    'Next one is the item title insude widgets',
+                    'This is the label or cta text',
+                    'This is the body text which is used for most of the design,like paragraphs, lists, etc'
+                    )
+                
+                

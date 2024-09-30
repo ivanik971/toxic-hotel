@@ -27,6 +27,7 @@ module.exports = {
         entry: { // adding html-files in 'dist'
           index: './src/pages/start/start.pug',
           colorsAndType: './src/pages/colors-and-type/colors-and-type.pug',
+          formElements: './src/pages/form-elements/form-elements.pug',
         }, 
         js: {
           // JS output filename
@@ -45,7 +46,7 @@ module.exports = {
       rules: [
         {
           test: /\.(s?css|sass)$/,
-          use: ['css-loader','sass-loader']
+          use: ['css-loader','sass-loader'],
         },
         {
           test: /\.(ico|png|jp?g|webp|svg)$/,

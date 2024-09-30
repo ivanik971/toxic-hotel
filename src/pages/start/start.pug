@@ -1,20 +1,15 @@
-doctype html
-html(lang="ru")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Webpack
-        link(href="./start.scss" rel="stylesheet")
-        script(src="./start.js" defer="defer")
-    body 
+extends ../../layouts/ui-kit-layout.pug
+block values 
+    title Webpack       
+block content 
         .router
-            a.colors_styles( href="./colorsAndType.html" target=_blank) Colors & Styles
+            a.colors_styles( href="./colorsAndType.html" target=_blank) Colors & Type
             |
             |
             a.router_header( href='#') Headers & Footers 
             |
             |
-            a.router_header( href='#') Form Elements
+            a.router_header( href='./formElements.html' target=_blank) Form Elements
             |
             |
             a.router_header( href='#') Cards

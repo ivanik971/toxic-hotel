@@ -1,0 +1,14 @@
+extends ../../layouts/ui-kit-layout.pug
+block values 
+    title Form Elements
+block content
+    .form-elements__email
+        .form-elements__email__text-field
+            p.form-elements__email__text-field_text TEXT FIELD 
+            p.form-elements__email__text-field_default DEFAULT
+        input(
+        class='form-elements__email_input' 
+        type='email'
+        placeholder='Email' 
+        list='mailList'
+        )

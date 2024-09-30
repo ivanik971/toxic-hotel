@@ -4,8 +4,8 @@
     border-radius: 6px;
 }
 .color {
-    width: 282px;
-    height: 70px;
+   // width: 282px;
+   // height: 70px;
     display: flex;
     flex-direction: row;
 }
@@ -34,4 +34,9 @@
 }
 .color__number {
     margin-top: 3px;
+}
+
+.colors-text__box {
+    display: flex;
+    flex-direction: row;
 }

@@ -24,11 +24,13 @@
     "pug-plugin": "^5.3.0",
     "sass": "^1.78.0",
     "sass-loader": "^16.0.1",
+    "style-loader": "^4.0.0",
     "webpack": "^5.94.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
   },
   "dependencies": {
+    "flexboxgrid2": "^7.2.1",
     "normalize.css": "^8.0.1"
   }
 }

@@ -1,0 +1,34 @@
+.form-elements__email {
+    display: flex;
+    flex-direction: column;
+    margin-left: 141px;
+    margin-top: 163px;
+    width: 320px;
+}
+.form-elements__email_input {
+   // padding-top: 13px;
+    padding-left: 15px;
+    font-size: 14px;
+    width: 300px;
+    height: 44px;
+    border: solid #1F20413F ;
+    border-radius: 4px;
+}
+.form-elements__email__text-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form-elements__email__text-field_default {
+   // margin-left: 191px;
+    font-size: 12px;
+    color: #1F20417F;
+    text-align: end;
+    height: 23px;
+}
+.form-elements__email__text-field_text {
+    font-size: 12px;
+    margin-top: 3px;
+    
+}
+
